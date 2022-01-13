@@ -5,23 +5,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Roneel Bhagwakar</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <link rel="stylesheet" href="./mystyle.css">
 	<link rel="icon" type="image/x-icon" href="alien.png">
 </head>
 <body>
-  <header>
-    <h1>Roneel Bhagwakar</h1>
+  <header class="has-background-primary has-text-centered">
+    <h1 class="is-size-1">Roneel Bhagwakar</h1>
   </header>
-  
-  <ul class="nav">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#social">Social</a></li>
-  </ul>
-  
-  <img src="headshot.png" alt="Picture of me" style="float:left" height="200px" width ="300px">
-  <div>An ambitious and truly committed individual looking for the opportunity to utilise and develop skills and knowledge within a progressive environment. Has strong leadership in a with a dedicated focus on customer service and support delivery. Has demonstrated the ability to build and sustain effective working relationships</div>
+  <!-- old navbar -->
+  <!-- <nav>
+    <ul class="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#social">Social</a></li>
+    </ul>
+</nav> -->
+
+<nav class="navbar has-shadow is-primary" role="navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="./index.html">
+      <img src="alien.png" alt="site logo" style="max-height: 50px" class="py-2 px-2">
+    </a>
+    <a role="button" class="navbar-burger" id="burger" aria="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu" id="nav-links">
+    <div class="navbar-start">
+      <a class="navbar-item" href="index.html">Home</a>
+      <a class="navbar-item" href="projects.html">Projects</a>
+      <a class="navbar-item" href="socials.html">Socials</a>
+      <a class="navbar-item" href="about.html">About</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="columns">
+    <div class="column pl-3" >
+      <p> An ambitious and truly committed individual looking for the opportunity to utilise and develop skills and knowledge within a progressive environment. Has strong leadership in a with a dedicated focus on customer service and support delivery. Has demonstrated the ability to build and sustain effective working relationships</p>
+    </div>
+    <div class="column is-one-third">
+      <figure class="image is-square">
+        <img src="headshot.png" alt="Picture of me">
+      </figure>
+    </div>
+  </div>
+</main>
+
+<script src="index.js"></script>
 
 </body>
 </html>

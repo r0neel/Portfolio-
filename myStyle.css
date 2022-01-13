@@ -3,17 +3,17 @@ body{
   font-size: 20px;
 }
 
-header {
+/* header {
   background-color: hsl(176, 57%, 77%);
   padding: 30px;
   text-align: center;
   font-size: 45px;
   color: white;
-}
+} */
 
 ul.nav {
+  background-color: hsl(176, 57%, 77%);
   padding-left: 0px;
-  background-color: #60e4d9;
   text-align: center;
 }
 
